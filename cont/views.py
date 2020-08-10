@@ -22,7 +22,7 @@ def contact(request):
         '-:Contact:-',
         cont, # subject
         yemail, # from email
-        ['smartrahul883@gmail.com'], #to email
+        ['amaanabidi1234@gmail.com'], #to email
         )
 
         return render(request,'contact.html',{
